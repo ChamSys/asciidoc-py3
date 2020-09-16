@@ -33,6 +33,7 @@ RUN mkdir /usr/share/man/man1/ \
         texlive-latex-base \
         unzip \
         zip \
+        xz-utils \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN cd /srv/asciidoc \
